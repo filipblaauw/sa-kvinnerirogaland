@@ -1,0 +1,924 @@
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
+
+#mm-wrapper {
+	max-width:980px;
+	margin:0 auto;
+	width:100%;
+	height:880px;
+	padding-top:80px;
+	padding-bottom:40px;
+	font-family:'Helvetica';
+	-webkit-font-smoothing:antialiased;
+	background:#222;
+}
+
+#mm-wrapper .mm-item {
+	margin:0 auto;
+	width:19.66666%;
+	padding:0px;
+	margin:2px -1px;
+	box-sizing:border-box;
+	height:20%;
+	color:#fff;
+	position: relative;
+	border:1px solid transparent;
+	border-color:transparent;
+	display: inline-block;vertical-align: top;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+	-webkit-transition: border 0.2s;
+		-moz-transition: border 0.2s ;
+		-ms-transition: border 0.2s ;
+		-o-transition: border 0.2s ;
+		transition: border 0.2s ;
+	
+}
+#mm-wrapper .mm-no-events {
+	pointer-events:none;
+}
+
+#mm-wrapper .mm-item h1 {
+
+}
+#mm-wrapper .mm-item img {
+	width: 100%;
+	height:100%;
+
+}
+.responsive {
+	width: 80%;
+}
+.byline {
+	text-transform: uppercase;
+	font-family:'Source Sans Pro' sans-serif;
+	color:#fff !important;
+	font-size:13px !important;
+	text-align: center;
+}
+#mm-wrapper .mm-item-logo {
+	width:25%;
+}
+#mm-wrapper  #mm-jumbo-left {
+	padding:0 10px 0 10px;
+	width:39.66%;
+}
+#mm-wrapper #mm-jumbo-right {
+	padding:1px 0 0 15px;
+}
+#mm-wrapper #mm-jumbo-left,#mm-wrapper  #mm-jumbo-right {
+	text-align: center;
+	height:20%;
+	width: 39.66%;
+}
+#mm-wrapper .mm-byline {
+	margin-top:15px !important;
+	margin-left: 15%;
+	margin-bottom: 50px;
+
+}
+#mm-wrapper .mm-byline p {
+	font-family:'Source Sans Pro';
+	color:#fff !important;
+	font-size:13px !important;
+	line-height: 18px;
+}
+#mm-wrapper .mm-byline span {
+	font-style:normal;
+	font-weight:600;
+}
+
+#mm-wrapper #mm-jumbo-right h1 {
+	font-family: 'Lato';
+	text-transform: uppercase;
+	position: relative;top:auto;left:auto;
+	font-weight:900 !important;
+	color:#fff;
+	font-size:26px;
+	text-align:center;
+	font-weight:600;
+
+}
+#mm-wrapper #mm-jumbo-left .mm-preheadline {
+	font-size: 16px;
+	color:rgb(246, 113, 176);
+}
+#mm-wrapper .k-logo {
+	background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/gfx/logo-lys.png); 
+	background-size:contain; 
+	background-position:bottom left;
+	 width:65%; height:100%;
+	 float:right;
+	 background-repeat:no-repeat;
+	 position: absolute;
+	 right: 0;
+	 bottom:10px;
+	}
+	
+#mm-wrapper .mm-social-sharing {
+	/*margin:20px auto;*/
+	width:15%;
+	margin-top:15px;
+	float: left;
+	text-align: center;
+}
+	#mm-wrapper .mm-facebook, 
+	#mm-wrapper .mm-twitter {
+		opacity: 0.8;
+		height:40px;
+		width:40px;
+		margin:5px;
+		background-position: center center;
+		background-size:100%;
+		background-repeat: no-repeat;
+		display: inline-block;
+		
+	}
+#mm-wrapper .mm-facebook:hover, 
+#mm-wrapper .mm-twitter:hover {
+		opacity:1;
+		cursor: pointer;
+	}
+	#mm-wrapper .mm-facebook {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/gfx/face.png);}
+	#mm-wrapper .mm-twitter {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/gfx/twitter.png);}
+
+
+#mm-wrapper #mm-jumbo-right p {
+	font-family: 'Lato', sans-serif;
+	color:#fff;
+	font-size:20px;
+	margin:0;
+	line-height:1.2;
+}
+
+#mm-wrapper .mm-item-open-wrap {
+	background:rgba(0,0,0,1);
+	background-color:#222;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	padding:20px;
+	opacity:0;
+	-webkit-backface-visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s ;
+	-ms-transition: opacity 0.3s ;
+	-o-transition: opacity 0.3s ;
+	transition: opacity 0.3s;
+
+}
+#mm-wrapper .mm-item-open-wrap-open {
+	opacity: 1;
+
+}
+#mm-wrapper .mm-delay {
+		transition-delay: 0.5s;
+	-webkit-transition-delay: 0.3s; /* Safari */
+
+}
+#mm-wrapper .mm-item-open-helper {
+	height:100%;
+	width:1%;
+	display: inline-block;
+	vertical-align: middle;
+}
+#mm-wrapper .mm-item-open-vid {
+	width:48%;
+	height:100%;
+	margin-bottom:50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#mm-wrapper .mm-video-wrapper {
+	/*padding-top: 56.25%;
+	background:#fff;*/
+	padding-top:30px;
+	width:100%;
+	
+	
+}
+#mm-wrapper .mm-item-open-cite {
+	font-size: 30px;
+	margin-left: 40px;
+	text-align: left;
+	color: rgb(246, 112, 176);
+	font-weight: 300;
+	margin-top: 20px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-style: italic;
+	position: relative;
+
+	
+}
+/*#mm-wrapper .mm-item-open-cite span:before{
+	content:' ';
+	height:30px;
+	width:30px;
+	background:url(../gfx/quotestart.png);
+	float: left;
+	background-size:contain;
+}*/
+/*#mm-wrapper .mm-item-open-cite span:after{
+	content:' ';
+	height:30px;
+	width:30px;
+	background:url(../gfx/quoteend.png);
+	
+	background-size:contain;
+}*/
+#mm-wrapper .mm-cite {
+	padding-right:10px;
+	padding-top:30px;
+	padding-left: 20px;
+	font-weight: 300;
+	font-size:30px;
+	line-height:1.1;
+}
+#mm-wrapper .mm-cite-by {
+	font-style:normal;
+	font-size:12px;color:#fff;
+	line-height: 1.1;
+	font-weight:400;
+	text-transform: uppercase;
+}
+#mm-wrapper .mm-blockquote-wrap {
+	height:100%;
+	width:40px;
+	float: left;
+	position: absolute;right: 0;top:0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+#mm-wrapper .mm-blockquote-line {
+	width:0px;
+	height:80%;
+	background:#888;
+	left:50%;position: absolute;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+#mm-wrapper .mm-blockquote {
+	height:40px;
+	width:40px;
+	background:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/gfx/quotestart.png);background-size:20px 20px; background-position: center center;background-repeat: no-repeat;
+	border-radius:20px;
+	border:0px solid #888;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+#mm-wrapper .mm-quote-start {
+	content:' ';
+	height:30px;
+	width:30px;
+	background:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/gfx/quotestart.png);
+	display: inline-block;
+	background-size:contain;
+	position: absolute;
+	margin-top:-10px;margin-left:-30px;
+}
+#mm-wrapper .mm-quote-end {
+	content:' ';
+	height:30px;
+	width:30px;
+	background:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/gfx/quoteend.png);
+	display: inline-block;
+	background-size:contain;
+	position: absolute;
+	margin-top:20px;margin-left:20px;
+}
+#mm-wrapper .mm-item-open-text {
+	width:48%;
+	height:100%;
+	display: inline-block;
+	vertical-align: top;
+	color:#fff;
+	overflow-y:scroll;
+	padding:20px;
+	font-family: 'Helvetica Neue', sans-serif;
+	margin-bottom:50px;
+}
+#mm-wrapper .mm-item-open-text h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 38px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom:20px;
+	margin-top: 4px;
+	color: #fff;
+}
+#mm-wrapper .mm-item-open-text strong {
+	font-size:18px;
+}
+#mm-wrapper .mm-item-open-text p {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	margin:15px 0;
+	font-size:16px;
+}
+#mm-wrapper strong.inlineStrong {
+	font-size:14px;
+	text-transform: uppercase;
+}
+#mm-wrapper i.inlineQuote {
+	font-weight:300;
+}
+#mm-wrapper .mm-thumb {
+	
+	background-size:cover;
+	background-position: top center;
+	
+
+/*		-webkit-transition: border 0.3s;
+	-moz-transition: border 0.3s ;
+	-ms-transition: border 0.3s ;
+	-o-transition: border 0.3s ;
+	transition: border 0.3s*/
+
+}
+.lillmari {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/lillmari.jpg) }
+.grethe {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/grethe.jpg) }
+.vibeke {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/vibeke.jpg) }
+.katharina {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/katharina.jpg) }
+.katrine {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/katrine.jpg) }
+.unni {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/unni.jpg) }
+.june {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/june.jpg) }
+.bergljot {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/bergljot.jpg) }
+.stephanie {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/stephanie.jpg) }
+.sigrid {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/sigrid.jpg) }
+.sivanette {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/sivanette.jpg) }
+.vibekep {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/vibekep.jpg) }
+.birgitte {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/birgitte.jpg) }
+.kelly {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/kelly.jpg) }
+.lillann {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/lillann.jpg) }
+.oline {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/oline.jpg) }
+.junep {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/junep.jpg) }
+.anette {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/anette.jpg) }
+.kristine {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/kristine.jpg) }
+.tvillinger {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/tvillinger.jpg) }
+.alice {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/alice.jpg) }
+.sivelise {background-image:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/img/480/sivelise.jpg) }
+
+.county {
+	float: left;
+	margin-right: 100px;
+	
+}
+.county-pink {
+	color: rgb(246, 112, 176);
+	font-weight: 600;
+	
+}
+
+#mm-wrapper .mm-thumbs li.mm-thumb-active {
+	border-color:rgb(246, 112, 176) !important;
+
+}
+
+/**/
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body  {
+	background: #222;
+}
+
+.container {
+	padding: 80px;
+}
+
+.bt-menu-trigger-out {
+	display: block;
+	width: 300px;
+	max-width: 100%;
+	height: 170px;
+	border: 4px solid #fff;
+	margin: 40px auto 0px auto;
+	cursor: pointer;
+}
+
+.bt-menu-trigger-out span {
+	font-size: 3em;
+	line-height: 155px;
+}
+
+.bt-menu-trigger-out:focus span {
+	opacity: 1;
+}
+
+.bt-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	border-width: 0px;
+	border-style: solid;
+	border-color: rba(0,0,0,0.8);
+	border-color:#fff;
+	/*background-color: rgba(255,255,255,0);*/
+	background-color:rba(0,0,0,0.8);
+	background-color:#222;
+
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
+	transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
+	-moz-transition: border-width 0.3s, background-color 0.3s, height 0s 0.3s;
+}
+
+.bt-menu.bt-menu-open {
+	height: 100%;
+	border-width: 100px 30px 100px 30px;
+	background-color: rgba(255,255,255,0.9);
+	background-color: #222;
+	-webkit-transition: border-width 0.3s, background-color 0.3s;
+	transition: border-width 0.3s, background-color 0.3s;
+	-moz-transition: border-width 0.3s, background-color 0.3s;
+	z-index:999999;
+}
+
+.bt-overlay {
+	position: absolute;
+	width: 100%;
+}
+
+.bt-menu-open .bt-overlay {
+	height: 100%;
+}
+
+.bt-overlay:after {
+	content: 'Video playing';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 5em;
+	top: 50%;
+	margin-top: -2.5em;
+	font-size: 5em;
+	z-index: 100;
+	color: rgba(104,115,116,0.4);
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.3s, visbility 0s 0.3s;
+	transition: opacity 0.3s, visbility 0s 0.3s;
+	-moz-transition: opacity 0.3s, visbility 0s 0.3s;
+}
+
+.bt-menu-open .bt-overlay:after {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s 0.2s;
+	transition: opacity 0.3s 0.2s;
+}
+
+.bt-menu-trigger {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 100;
+	display: block;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	z-index: 999999;
+	-webkit-transform: translateY(-100%) translateY(-20px);
+	transform: translateY(-100%) translateY(-20px);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-moz-transition: transform 0.3s;
+}
+
+.bt-menu-open .bt-menu-trigger {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);	
+	-moz-transform: translate3d(0,0,0);	
+
+}
+.btn-next {
+	display: none;
+	height:50px;margin-top:-25px;
+	width:50px;
+	background:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/gfx/next.png);
+	background-repeat: no-repeat;background-position: center center;
+	position: fixed;
+	right:25px;
+	top:50%;
+	z-index:999;
+}
+.btn-prev {
+	display: none;
+	height:50px;margin-top:-25px;
+	width:50px;
+	background:url(http://lisa.aftenbladet.no/html/kvinnerirogaland/gfx/prev.png);
+	background-repeat: no-repeat;background-position: center center;
+	position: fixed;
+	left:25px;
+	top:50%;
+	z-index:999;
+}
+
+.bt-menu-open .btn-prev,
+.bt-menu-open .btn-next {display: block;}
+.bt-menu-trigger span {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 4px;
+	font-size: 0px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.bt-menu-trigger span:before,
+.bt-menu-trigger span:after {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	content: '';
+}
+
+.bt-menu-trigger span:before {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+}
+
+.bt-menu-trigger span:after {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.bt-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	z-index: 200;
+	white-space: nowrap;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	visibility: hidden;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: visibility 0s 0.3s;
+	transition: visibility 0s 0.3s;
+}
+
+.bt-menu.bt-menu-open ul {
+	visibility: visible;
+	-webkit-transition: none;
+	transition: none;
+}
+
+.bt-menu ul li {
+	display: inline-block;
+	line-height: 100px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.bt-menu ul li a {
+	text-decoration: none;
+	outline: none;
+	display: block;
+}
+
+/* Top Menu */
+/*.bt-menu ul.bt-menu-top {
+	top: 0;
+}
+
+.bt-menu ul.bt-menu-top li {
+	font-size: 0;
+	-webkit-transform: translateY(-100%) scale(0);
+	transform: translateY(-100%) scale(0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-moz-transition: transform 0.3s;
+
+}
+
+.bt-menu.bt-menu-open ul.bt-menu-top li {
+	-webkit-transform: translateY(0) scale(1);
+	transform: translateY(0) scale(1);
+	-moz-transform: translateY(0) scale(1);
+}
+
+.bt-menu ul.bt-menu-top li a {
+	text-decoration: none;
+	outline: none;
+	color: #687374;
+	padding: 0 30px;
+}
+
+.bt-menu ul.bt-menu-top li a:hover,
+.bt-menu ul.bt-menu-top li a:focus {
+	color: #fff;
+}
+
+.bt-menu ul.bt-menu-top li a:before {
+	font-size: 36px;
+}*/
+
+/* Bottom Menu */
+
+.bt-menu ul.bt-menu-bottom {
+	display: none;
+	bottom: 0px;
+	width: 100%;
+	padding: 10px 0;
+}
+
+.bt-menu ul.bt-menu-bottom li {
+	width: 40px;
+	height: 35px;
+	border: 1px solid #687374;
+	margin: 0 3px;
+	position: relative;
+	cursor: pointer;
+	-webkit-transform: translateY(100%) scale(0);
+	transform: translateY(100%) scale(0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-moz-transition: transform 0.3s;
+}
+
+.bt-menu ul.bt-menu-bottom li:before,
+.bt-menu ul.bt-menu-bottom li:after {
+	/*content: '';
+	position: absolute;
+	left: 50%;
+	margin-left: -1.5px;
+	top: 0;
+	height: 100%;
+	width: 3px;
+	background-color: #687374;*/
+}
+
+.bt-menu ul.bt-menu-bottom li:hover,
+.bt-menu ul.bt-menu-bottom li:focus {
+	border-color: #fff;
+}
+
+.bt-menu ul.bt-menu-bottom li:hover:before,
+.bt-menu ul.bt-menu-bottom li:focus:before,
+.bt-menu ul.bt-menu-bottom li:hover:after,
+.bt-menu ul.bt-menu-bottom li:focus:after {
+	background-color: #fff;
+}
+
+.bt-menu ul.bt-menu-bottom li:before {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.bt-menu ul.bt-menu-bottom li:after {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.bt-menu.bt-menu-open ul.bt-menu-bottom li {
+	-webkit-transform: translateY(0) scale(1);
+	transform: translateY(0) scale(1);
+}
+
+.bt-menu.bt-menu-open ul.bt-menu-bottom li:first-child {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.bt-menu.bt-menu-open ul.bt-menu-bottom li:nth-child(2) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.bt-menu.bt-menu-open ul.bt-menu-bottom li:nth-child(3) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.bt-menu.bt-menu-open ul.bt-menu-bottom li:nth-child(4) {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+.bt-menu.bt-menu-open ul.bt-menu-bottom li:nth-child(5) {
+	-webkit-transition-delay: 0.25s;
+	transition-delay: 0.25s;
+}
+
+.bt-menu.bt-menu-open ul.bt-menu-bottom li:nth-child(6) {
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+.bt-menu.bt-menu-open ul.bt-menu-bottom li:nth-child(7) {
+	-webkit-transition-delay: 0.35s;
+	transition-delay: 0.35s;
+}
+
+.bt-menu.bt-menu-open ul.bt-menu-bottom li:nth-child(8) {
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 44em) {
+	.bt-overlay:after {
+		font-size: 2em;
+	}
+}
+ 
+@media screen and (max-width: 39.125em) {
+	.bt-menu ul.bt-menu-top {
+		left: 20px;
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	.bt-menu ul.bt-menu-top li a {
+		padding: 0 10px;
+	}
+
+	.bt-menu ul.bt-menu-top li a:before {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 767px){
+
+	#mm-wrapper {
+		overflow: hidden;
+		height: 100%;
+		overflow-y:scroll;
+		 -webkit-overflow-scrolling: touch;
+		 padding-top: 5px;
+	}
+	#mm-wrapper .mm-item {
+		width:100%;
+		height:200px;
+		top: 100px;
+	}
+
+	#mm-wrapper #mm-jumbo-left {
+		display: none;
+	}
+	#mm-wrapper #mm-jumbo-left h1 {
+		bottom:auto;
+		top:10px;
+		font-size:28px;
+		width:100%;
+	}
+	#mm-wrapper .k-logo {
+		background-position: top left;
+		bottom:auto;
+	}
+	
+	#mm-wrapper #mm-jumbo-right-mobile {
+		height:150px;
+		padding:10px;
+		margin: 0px;
+		width:100%;
+		text-align: center;
+	}
+	#mm-wrapper #mm-jumbo-right-mobile h1 {
+		bottom:auto;
+		top:0px;
+		font-size:28px;
+		font-weight: 900;
+		color: #fff;
+		width:100%;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	#mm-wrapper #mm-jumbo-right-mobile p {
+		bottom:auto;
+		top:0px;
+		font-size:16px;
+		color: #fff;
+		width:100%;
+		text-align: center;
+	}
+	
+	#mm-wrapper .mm-item-open-wrap {
+		overflow-y:scroll;
+		-webkit-overflow-scrolling: touch;
+		padding:0;
+
+	}
+	#mm-wrapper .mm-item-open-helper {
+		display: none;
+	}
+	#mm-wrapper .mm-item-open-vid {
+		width:100%;height:auto;
+		margin-bottom:0;
+	}
+	#mm-wrapper .mm-item-open-text {
+		width:100%;
+		height:250px;
+		margin-top:0px;
+		overflow:hidden;
+		height: auto;
+	}
+	#mm-wrapper .mm-item-open-cite {
+		display: none;
+	}
+	#mm-wrapper .mm-thumbs {
+		background:#222;
+		padding:10px 0 0 0;
+	}
+	#mm-wrapper .mm-thumb {
+		width:15%;
+		height:40px;
+		margin:0;
+	}
+	#mm-wrapper .btn-next, #mm-wrapper .btn-prev {
+		display: none ;
+	}
+	#mm-wrapper .mm-video-wrapper {
+		padding-top:90px;
+	}
+	.k-logo, .mm-no-events, #mm-jumbo-left, {
+		display: none;
+	}
+	#mm-wrapper #mm-jumbo-right {
+		display: none;
+	}
+	#mm-wrapper .mm-social-sharing {
+		padding-top: 100px;
+		padding-bottom: 20px;
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+	#mm-wrapper .mm-byline {
+		width: 90%;
+		padding: 20px;
+		margin: 0px;
+	}
+
+}
+
+@media (min-width:767px){
+	#mm-wrapper .mm-item:not(#mm-jumbo-right):hover {
+	border: 7px solid rgb(246, 112, 176);
+	cursor:pointer;
+	}
+	.mm-item-dummy:hover {
+		cursor: default;
+	}
+	#mm-jumbo-right-mobile {
+	display: none;
+	}
+}
+
+
+
+@media (min-width:980px){
+	#mm-wrapper .mm-item-open-wrap {
+		max-width:880px;
+	}
+}
+@media (min-width:1280px){
+	#mm-wrapper .mm-item-open-wrap {
+		max-width:1080px;
+	}
+}
+@media (min-width:1440px){
+	#mm-wrapper .mm-item-open-wrap {
+		max-width:1280px;
+	}
+}
+@media (min-width:1920px){
+	#mm-wrapper .mm-item-open-wrap {
+		max-width:1480px;
+	}
+}

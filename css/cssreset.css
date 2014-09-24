@@ -1,0 +1,45 @@
+		.mm-ap, .mm-ap div, .mm-ap applet, .mm-ap iframe,
+		.mm-ap h1, .mm-ap h2, .mm-ap h3, .mm-ap h4, .mm-ap h5, .mm-ap h6, .mm-ap p, .mm-ap blockquote, .mm-ap pre,
+		.mm-ap a, .mm-ap abbr, .mm-ap acronym, .mm-ap address, .mm-ap big, .mm-ap cite, .mm-ap code,
+		.mm-ap del, .mm-ap dfn, .mm-ap em, .mm-ap img, .mm-ap ins, .mm-ap kbd, .mm-ap q, .mm-ap s, .mm-ap samp,
+		.mm-ap small, .mm-ap strike, .mm-ap strong, .mm-ap sub, .mm-ap sup, .mm-ap tt, .mm-ap var,
+		.mm-ap b, .mm-ap u, .mm-ap i, .mm-ap center,
+		.mm-ap dl, .mm-ap dt, .mm-ap dd, .mm-ap ol, .mm-ap ul, .mm-ap li,
+		.mm-ap fieldset, .mm-ap form, .mm-ap label, .mm-ap legend,
+		.mm-ap table, .mm-ap caption, .mm-ap tbody, .mm-ap tfoot, .mm-ap thead, .mm-ap tr, .mm-ap th, .mm-ap td,
+		.mm-ap article, .mm-ap aside, .mm-ap canvas, .mm-ap details, .mm-ap embed, .mm-ap 
+		.mm-ap figure, .mm-ap figcaption, .mm-ap footer, .mm-ap header, .mm-ap hgroup, .mm-ap 
+		.mm-ap menu, .mm-ap nav, .mm-ap output, .mm-ap ruby, .mm-ap section, .mm-ap summary,
+		.mm-ap time, .mm-ap mark, .mm-ap audio, .mm-ap video {
+		
+			
+			margin: 0;
+			padding: 0;
+			border: 0;
+			
+			font-size: 100%;
+			font-weight:normal;
+			box-shadow:0 0 0 rgba(0,0,0,0);
+			text-shadow:0 0 0 rgba(0,0,0,0);
+		}
+		/* HTML5 display-role reset for older browsers */
+		.mm-ap article, .mm-ap aside, .mm-ap details, .mm-ap figcaption, .mm-ap figure, .mm-ap 
+		.mm-ap footer, .mm-ap header, .mm-ap hgroup, .mm-ap menu, .mm-ap nav, .mm-ap section {
+			display: block;
+		}
+
+		.mm-ap ol, .mm-ap ul {
+			list-style: none;
+		}
+		.mm-ap blockquote, .mm-ap q {
+			quotes: none;
+		}
+		.mm-ap blockquote:before, .mm-ap blockquote:after,
+		.mm-ap q:before, .mm-ap q:after {
+			content: '';
+			content: none;
+		}
+		.mm-ap table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
